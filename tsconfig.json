@@ -9,8 +9,8 @@
     "target": "es2017",
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./",
-    "incremental": true,
-    "skipLibCheck": true
-  }
+    "baseUrl": "./src",
+    "incremental": true
+  },
+  "include": ["test/**/*", "src/**/*", "test/**/*"],
 }
